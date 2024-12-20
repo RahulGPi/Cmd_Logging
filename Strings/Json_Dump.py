@@ -14,7 +14,7 @@ class jason:
         # Reading data from the JSON file 
         with open(cls.file_path, 'r') as json_file:
             prompts = json.load(json_file)
-
+        # Gets only the date and time
         date = lines[:22]
         
         prompts[date] = {

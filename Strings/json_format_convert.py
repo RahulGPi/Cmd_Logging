@@ -1,7 +1,7 @@
 from log_file.Read_Cmds.readline_1 import read_line as rd
 from datetime import date
 from api.api import api
-# D:\GlobalStoragePro\Python WorkSpace\Cmd_logging\log_file\Read_Cmds\readline_1.py
+
 class convert:
     
     def conversion_to_json():
@@ -17,7 +17,7 @@ class convert:
         response = api.combine(lines)
         # Collects response from api, returns list on '\n' , removes '\n' values in the returned list 
         returned_api_list = response.text.split('\n')
-        print(lines[:22])
+
         cleaned_list = []
         for line in returned_api_list:
             cleaned_list.append(line)
