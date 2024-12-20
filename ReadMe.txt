@@ -1,5 +1,15 @@
+Cmd_Logging
+Cmd_logging is a security logging framework designed to monitor and analyze commands entered on the command line. 
+The project aims to protect the system by providing real-time alerts based on risk assessment of executed orders.
+
+Feature:
+Command Log: Collects and saves all commands entered during a command line session.
+
+Risk Analysis: Evaluate the potential risk of each order to identify biased or suspicious activity.
+
+Alerts: Alert users with a notification popup if a statement is considered risky or biased.
 # Things To Do Before Running 
-	* install respective libraries
+	* Install respective libraries
 	* Change all paths to respective paths
 	* Input your google gemini api key
 
