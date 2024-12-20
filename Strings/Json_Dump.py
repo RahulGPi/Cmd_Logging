@@ -16,7 +16,6 @@ class jason:
             prompts = json.load(json_file)
 
         date = lines[:22]
-        # date = datetime.datetime.strptime(date, "%d-%m-%Y %H:%M:%S.%f")
         
         prompts[date] = {
             cleaned_list[0] : cleaned_list[1]
