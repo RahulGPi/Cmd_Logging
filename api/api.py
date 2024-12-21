@@ -3,7 +3,7 @@ class api:
     # text to send
     prompt_text = """The above lines are history of cmd line read commands, 
     give 10-15 worded description along with the last word in another line to be the risk level of it, 
-    if commands are  syntactically wrong or unrecognizable commands give the risk level as 'LOW',
+    if commands are  syntactically wrong, unrecognizable commands, only time stamps; give the risk level as 'LOW',
     do not have any other words then the risk levels
     these risk levels are 'LOW','MED','HIGH'"""
     # API key
